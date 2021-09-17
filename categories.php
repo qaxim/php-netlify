@@ -17,7 +17,7 @@
   $response = curl_exec($curl);
 
   curl_close($curl);
-  echo json_encode($response);
+  echo $response;
 
 
 
